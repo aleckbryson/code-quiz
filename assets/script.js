@@ -1,3 +1,7 @@
+var currentQues = document.querySelector(".current-question");
+var answerChoices = document.querySelector(".answer-choices");
+var rightChoice = document.querySelector(".correct-choice");
+
 var hornetsObj = [
     {
         question: "Who was the first player ever drafted in the college draft by the Hornets?",
